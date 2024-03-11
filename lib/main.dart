@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
                   fontWeight: FontWeight.bold,
                   color: GlobalVaraibles.blueColor),
               titleSmall:
-                  TextStyle(fontWeight: FontWeight.w300, color: Colors.white)),
+                  TextStyle(fontWeight: FontWeight.w500, color: Colors.white)),
           useMaterial3: true),
     );
   }

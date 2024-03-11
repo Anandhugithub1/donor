@@ -38,7 +38,8 @@ class CustomDropdown extends StatelessWidget {
           value: value,
           child: Text(
             value,
-            style: TextStyle(color: GlobalVaraibles.blueColor),
+            style: TextStyle(
+                color: GlobalVaraibles.blueColor, fontWeight: FontWeight.w400),
           ),
         );
       }).toList(),

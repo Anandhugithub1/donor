@@ -25,6 +25,7 @@ class CustomTextfield extends StatelessWidget {
       decoration: InputDecoration(
           prefixIcon: iconData != null ? Icon(iconData) : null,
           hintText: hintText,
+          hintStyle: TextStyle(fontWeight: FontWeight.w600),
           border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(8.0),
               borderSide: BorderSide(color: GlobalVaraibles.blueColor)),
