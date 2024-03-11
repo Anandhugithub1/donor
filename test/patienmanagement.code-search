@@ -1,0 +1,109 @@
+# Query: patienmanagement
+
+62 results - 24 files
+
+android\app\build.gradle:
+  26:     namespace "com.example.donor"
+  45:         applicationId "com.example.donor"
+
+android\app\src\main\AndroidManifest.xml:
+  3:         android:label="donor"
+
+android\app\src\main\kotlin\com\example\donor\MainActivity.kt:
+  1: package com.example.donor
+
+ios\Runner\Info.plist:
+   8: 	<string>donor</string>
+  16: 	<string>donor</string>
+
+ios\Runner.xcodeproj\project.pbxproj:
+  371: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.donor;
+  387: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.donor.RunnerTests;
+  404: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.donor.RunnerTests;
+  419: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.donor.RunnerTests;
+  550: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.donor;
+  572: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.donor;
+
+lib\common\custom_button.dart:
+  2: import 'package:donor/global/global.dart';
+
+lib\common\custom_textfield.dart:
+  3: import 'package:donor/global/global.dart';
+
+lib\common\dropdown.dart:
+  2: import 'package:donor/global/global.dart';
+
+lib\common\skeleton.dart:
+  2: import 'package:donor/global/global.dart';
+
+lib\error\errorhandling.dart:
+  6: import 'package:donor/global/snackdar.dart';
+
+lib\providers\user_provider.dart:
+  2: import 'package:donor/models/user.dart';
+
+lib\services\authservice.dart:
+   7: import 'package:donor/error/errorhandling.dart';
+   8: import 'package:donor/global/global.dart';
+   9: import 'package:donor/global/snackdar.dart';
+  10: import 'package:donor/home/home.dart';
+  11: import 'package:donor/models/user.dart';
+  12: import 'package:donor/providers/user_provider.dart';
+
+lib\sidebar\sidebar.dart:
+  2: import 'package:donor/global/global.dart';
+  3: import 'package:donor/donor/add.dart';
+  4: import 'package:donor/providers/user_provider.dart';
+
+lib\splashscreen\splash.dart:
+  2: import 'package:donor/auth/login.dart';
+
+linux\CMakeLists.txt:
+   7: set(BINARY_NAME "donor")
+  10: set(APPLICATION_ID "com.example.donor")
+
+linux\my_application.cc:
+  43:     gtk_header_bar_set_title(header_bar, "donor");
+  47:     gtk_window_set_title(window, "donor");
+
+macos\Runner\Configs\AppInfo.xcconfig:
+   8: PRODUCT_NAME = donor
+  11: PRODUCT_BUNDLE_IDENTIFIER = com.example.donor
+
+macos\Runner.xcodeproj\project.pbxproj:
+   67: 		33CC10ED2044A3C60003C045 /* donor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "donor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+  134: 				33CC10ED2044A3C60003C045 /* donor.app */,
+  220: 			productReference = 33CC10ED2044A3C60003C045 /* donor.app */;
+  388: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.donor.RunnerTests;
+  391: 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/donor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/donor";
+  402: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.donor.RunnerTests;
+  405: 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/donor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/donor";
+  416: 				PRODUCT_BUNDLE_IDENTIFIER = com.example.donor.RunnerTests;
+  419: 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/donor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/donor";
+
+macos\Runner.xcodeproj\xcshareddata\xcschemes\Runner.xcscheme:
+  18:                BuildableName = "donor.app"
+  34:             BuildableName = "donor.app"
+  68:             BuildableName = "donor.app"
+  85:             BuildableName = "donor.app"
+
+web\index.html:
+  26:   <meta name="apple-mobile-web-app-title" content="donor">
+  32:   <title>donor</title>
+
+web\manifest.json:
+  2:     "name": "donor",
+  3:     "short_name": "donor",
+
+windows\CMakeLists.txt:
+  3: project(donor LANGUAGES CXX)
+  7: set(BINARY_NAME "donor")
+
+windows\runner\main.cpp:
+  30:   if (!window.Create(L"donor", origin, size)) {
+
+windows\runner\Runner.rc:
+  93:             VALUE "FileDescription", "donor" "\0"
+  95:             VALUE "InternalName", "donor" "\0"
+  97:             VALUE "OriginalFilename", "donor.exe" "\0"
+  98:             VALUE "ProductName", "donor" "\0"
